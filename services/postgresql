@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# PROVIDE: postgresql
+# BEFORE: nginx
+
+. /etc/rc.subr
+
+name=postgresql
+desc="postgresql jail"

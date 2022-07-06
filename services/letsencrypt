@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# PROVIDE: letsencrypt
+
+. /etc/rc.subr
+
+name=letsencrypt
+desc="letsencrypt jail"

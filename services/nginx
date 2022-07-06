@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# PROVIDE: nginx
+# REQUIRE: letsencrypt
+
+. /etc/rc.subr
+
+name=nginx
+desc="nginx jail"

@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# PROVIDE: ldap
+# REQUIRE: letsencrypt
+
+. /etc/rc.subr
+
+name=ldap
+desc="ldap jail"

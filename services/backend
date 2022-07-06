@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# PROVIDE: backend
+# REQUIRE: postgresql ldap
+# BEFORE: nginx
+
+. /etc/rc.subr
+
+name=backend
+desc="backend jail"

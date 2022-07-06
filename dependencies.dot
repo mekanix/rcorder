@@ -1,0 +1,10 @@
+digraph rcorder {
+rankdir="BT";
+node [style=rounded, shape=record];
+graph [overlap = false];
+"nginx" -> "backend" [style=dashed];
+"backend" -> "ldap" [style=solid];
+"ldap" -> "letsencrypt" [style=solid];
+"backend" -> "postgresql" [style=solid];
+"nginx" -> "letsencrypt" [style=solid];
+}
